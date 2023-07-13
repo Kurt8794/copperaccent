@@ -1,0 +1,76 @@
+#gallery-main {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 8vh;
+}
+
+.main {
+  margin-top: 10vh;
+  margin-bottom: 4vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.tagline {
+  display: flex;
+  flex-direction: column;
+}
+.header-text {
+  color: #222426;
+}
+.header-text span {
+  font-size: 3rem;
+  border-bottom-right-radius: 5px;
+}
+#pueblos span {
+  border-bottom: 8px solid #D97941;
+}
+#nature span {
+  border-bottom: 8px solid #19402E;
+}
+#mirrors span {
+  border-bottom: 8px solid #A6A6A6;
+}
+
+.thumbnail {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.thumbnail img {
+  width: 90%;
+  max-width: 450px;
+  align-self: center;
+  aspect-ratio: 1 / 1;
+  box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.4);
+}
+.thumbnail-box {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.thumbnail-box button {
+  width: 120px;
+  align-self: center;
+	color: white;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  border-radius: 5px;
+}
+.thumbnail-box button:hover {
+  background-color: #A6A6A6;
+  color: #222426;
+}
+.buy-btn {
+  background-color: #D97941;
+}
+.contact-btn {
+  background-color: #222426;
+}
