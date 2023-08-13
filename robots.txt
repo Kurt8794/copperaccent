@@ -2,7 +2,7 @@ User-agent: *
 Disallow:
 
 
-Sitemap: https://copper-accent.com/sitemap.xml
+Sitemap: https://copperaccent.com/sitemap.xml
 
 
 
