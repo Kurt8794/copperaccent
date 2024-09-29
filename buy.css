@@ -9,29 +9,29 @@
   gap: 50px;
 }
 
-#buy-pueblo {
+#buy-sconce {
   flex: 1;
   display: flex;
   flex-direction: column;
   width: 100%;
 }
-#pueblos img{
+#sconce img{
   width: 80vw;
   aspect-ratio: 1 / 1;
   max-width: 500px;
   box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.4);
 }
-#quail img{
+#sconce img{
   width: 80vw;
   aspect-ratio: 1 / 1;
   max-width: 500px;
   box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.4);
 }
-.details-pueblos {
+.details-sconce {
   display: flex;
   flex-direction: column;
 }
-.details-pueblos button {
+.details-sconce button {
   width: 120px;
   align-self: center;
   text-align: center;
@@ -45,7 +45,7 @@
   border-radius: 5px;
 }
 
-.details-pueblos button:hover {
+.details-sconce button:hover {
   background-color: #A6A6A6;
 }
 
