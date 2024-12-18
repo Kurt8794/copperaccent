@@ -72,10 +72,10 @@
     <div class="nav-desktop">
       <ul>
         <a href="index.html"><li>HOME</li></a>
-        <a href="contact.html" target="_blank"><li>CONTACT</li></a>
+        <a href="about.html"><li>ABOUT</li></a>
         <a href="gallery.html"><li class="top" id="gallery">GALLERY</li></a>
         <a href="buy.html"><li>BUY</li></a>
-		<a href="about.html"><li>ABOUT</li></a>
+		<a href="contact.html" target="_blank"><li>CONTACT</li></a>
       </ul>
     </div>
     <div class="menu-btn" onclick="showBurger()">
@@ -96,22 +96,26 @@
     <span>Signup for Newsletter (sent out about twice a year)</span>
 	Find out what new things I am working on and my art market calendar of events
     <br>
-   <form name="signup" method="POST" data-netlify="true" enctype="text/plain">
-   
-   <p>
-    <label>Your First Name: <input type="text" name="fname" /></label>
-  <br>
-  <label>Your Last Name: <input type="text" name="lname" /></label>
-  <br>
-  <label>Your City: <input type="text" name="city" /></label>
-  <br>
-  <label>Your State: <input type="text" name="state" size=2 /></label>
-  <br>
-    <label>Your Email: <input type="email" name="email" size=35 /></label><P>
-
-    
-    <input type="submit" value="Submit">
-  </form>
+    <form name="signup" method="POST" data-netlify="true">
+      <p>
+        <label>Your First Name: <input type="text" fname="fname" /></label>
+      </p>
+    <p>
+        <label>Your Last Name: <input type="text" name="lname" /></label>
+      </p>
+      <p>
+        <label>Your Email: <input type="email" name="email" /></label>
+      </p>
+      <p>
+        <label>Your City: <input type="text" name="city" /></label>
+      </p>
+      <p>
+        <label>Your State: <input type="text" name="state" /></label>
+      </p>
+      <p>
+        <button type="submit">Send</button>
+      </p>
+    </form>
   
   
   </div>
