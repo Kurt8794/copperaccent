@@ -1,0 +1,11 @@
+User-agent: *
+Disallow:
+
+
+Sitemap: https://copperaccent.com/sitemap.xml
+
+
+
+
+
+

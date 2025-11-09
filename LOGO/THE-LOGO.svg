@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 145.18 76.7">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #222426;
+      }
+
+      .cls-2 {
+        stroke: #f2f2f2;
+        stroke-miterlimit: 10;
+        stroke-width: .55px;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #3bd9bc;
+      }
+
+      .cls-4 {
+        fill: #d97941;
+      }
+
+      .cls-5 {
+        fill: white;
+      }
+    </style>
+  </defs>
+  <g id="objects">
+    <path class="cls-4" d="M43.66,0h60.29c2.71,0,4.9,2.2,4.9,4.9V76.06H38.76V4.9c0-2.71,2.2-4.9,4.9-4.9Z"/>
+    <path class="cls-1" d="M4.9,26.71H47.97c2.7,0,4.9,2.2,4.9,4.9v44.46H0V31.61c0-2.7,2.2-4.9,4.9-4.9Z"/>
+    <path class="cls-1" d="M85.99,12.6h54.29c2.7,0,4.9,2.2,4.9,4.9v58.57H81.09V17.5c0-2.7,2.2-4.9,4.9-4.9Z"/>
+    <path class="cls-5" d="M43.66,37.94H118.52c2.7,0,4.9,2.2,4.9,4.9v33.86H38.76V42.84c0-2.7,2.2-4.9,4.9-4.9Z"/>
+    <g id="ladder">
+      <g>
+        <line class="cls-2" x1="23.02" y1="47.29" x2="21.63" y2="76.06"/>
+        <line class="cls-2" x1="25.89" y1="47.29" x2="27.03" y2="76.06"/>
+      </g>
+      <line class="cls-2" x1="22.7" y1="53.74" x2="26.14" y2="53.74"/>
+      <line class="cls-2" x1="22.31" y1="62.03" x2="26.46" y2="62.03"/>
+      <line class="cls-2" x1="21.91" y1="70.31" x2="26.8" y2="70.31"/>
+    </g>
+    <rect class="cls-3" x="67.4" y="54.87" width="12.81" height="21.2"/>
+  </g>
+</svg>
