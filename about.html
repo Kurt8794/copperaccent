@@ -50,6 +50,15 @@
   </style>
 
 -->
+
+<script>
+const video = document.getElementById('myVideo');
+const container = document.getElementById('videoContainer');
+
+video.addEventListener('ended', function() {
+container.style.display = 'none'; // hides the video
+});
+</script>
   
 <style>
 .video-region {
@@ -150,6 +159,8 @@ with a day job  to allow my interest to be anything other than a hobby. Retireme
 <source src="KurtVideo.mp4" type="video/mp4">
 </video>
 </div>
+
+
 
 
 
