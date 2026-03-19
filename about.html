@@ -30,7 +30,7 @@
   <script src="script.js" defer></script>
 
   <title>Copper Accent | About</title>
-
+<!--
 
   <style>
     .video-wrapper {
@@ -45,11 +45,26 @@
       left: 25%;
       width: 50%;
       height: 100%;
-      object-fit: contain; /* or use 'contain' if you don't want cropping */
+      object-fit: contain;  or use 'contain' if you don't want cropping 
     }
   </style>
 
+-->
   
+<style>
+.video-region {
+width: 100%;
+max-width: 600px;
+height: 340px;
+margin: auto;
+}
+
+.video-region video {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+</style>
   
 </head>
 
@@ -130,6 +145,15 @@ with a day job  to allow my interest to be anything other than a hobby. Retireme
     surrounding landscape as an an artform to display at home. I enjoy the process of refining the initial design concept and get closer to something I am satisfied with.
   </div>
 
+<div class="video-region">
+<video controls poster="Poster.jpg">
+<source src="KurtVideo.mp4" type="video/mp4">
+</video>
+</div>
+
+
+
+<!--
   <center>
  <div class="video-wrapper">
     <video controls poster="Poster.jpg" width="45%">
@@ -139,7 +163,7 @@ with a day job  to allow my interest to be anything other than a hobby. Retireme
     </video>
   </div>
 </center>
-
+-->
   <div class="section" id="workmanship">
     <span id="workmanship">Workmanship</span>
     <br>
